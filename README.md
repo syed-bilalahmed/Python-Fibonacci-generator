@@ -13,5 +13,5 @@ This is a Python script that dynamically generates a Fibonacci-like sequence bas
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/fibonacci-generator.git
+   git clone https://github.com/syed-bilalahmed/fibonacci-generator.git
    cd fibonacci-generator
