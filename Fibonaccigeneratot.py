@@ -1,8 +1,7 @@
 num= int(input("Enter a  Fibonacci series number : "))
+a=int(input("Enter a  1st starting  point :"))
+b=int(input("Enter a 2nd starting  point :"))
 
-#starting number are 0 and 1
-a=0
-b=1
 
 print( a)
 print(b)
