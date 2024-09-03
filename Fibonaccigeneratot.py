@@ -1,18 +1,16 @@
-num= int(input("Enter a  Fibonacci series number : "))
-a=int(input("Enter a  1st starting  point :"))
-b=int(input("Enter a 2nd starting  point :"))
+num = int(input("Enter the number of terms in the Fibonacci series: "))
+a = int(input("Enter the 1st starting point: "))
+b = int(input("Enter the 2nd starting point: "))
 
-
-print( a)
+# Print the first two starting points
+print(a)
 print(b)
-#initialize
-i=1
-#generate Fibonacci series
-while i<num:
-    c=a+b
-    a=b
-    b=c
-
-   
+# Starting from 2 because the first two terms are already printed
+i = 0 
+# Generate the Fibonacci series
+while i < num:
+    c = a + b
     print(c)
-    i+=1
+    a = b
+    b = c
+    i += 1
